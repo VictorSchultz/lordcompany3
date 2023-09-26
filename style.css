@@ -1,0 +1,303 @@
+body {
+  margin: 0px;
+  background-color: rgba(0, 0, 0, 0.12);
+  width: 100%;
+  height: 100%;
+  justify-items: center;
+  align-items: center;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  margin: 0px;
+}
+
+.logo {
+  max-width: 5%;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  margin: 10px;
+  border-radius: 100%;
+  background-color: rgba(183, 218, 187, 0.301);
+}
+
+.header {
+  display: flex;
+  gap: 10px;
+  box-sizing: border-box;
+  place-content: center;
+  align-items: center;
+  margin: 0px;
+  margin-top: 30px;
+  margin-bottom: 35px;
+}
+
+.title {
+  font-family: Cinzel;
+  text-align: center;
+  font-size: 27px;
+}
+
+.divisao {
+  width: 250px;
+  height: 0px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.info {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 70px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.info a {
+  transition: 1s;
+  border-radius: 70%;
+}
+
+.info a:hover {
+  background-color: rgba(183, 218, 187, 0.603);
+  transition: 1s;
+  padding: 10px 15px;
+  padding-bottom: 13px;
+}
+
+.info a {
+  font-family: Ysabeau SC;
+  font-weight: bold;
+  font-size: 17px;
+  margin-bottom: 5px;
+  color: black;
+  padding: 0px;
+}
+
+.fotos {
+  display: flex;
+  justify-items: center;
+  border-radius: 8px;
+  align-items: center;
+  gap: 0px;
+  background-image: url("ice.jpg");
+  background-size: 100%;
+  filter: blur(6px);
+  -webkit-filter: blur(3px);
+  margin: auto;
+  margin-top: 50px;
+  width: 100%;
+  height: 200px;
+}
+
+.fotosdeles {
+  justify-items: center;
+  align-items: center;
+  gap: 0px;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 2;
+  margin: 0;
+}
+
+.zan {
+  max-width: 32%;
+  position: relative;
+  top: -225px;
+  grid-column: 1;
+  justify-self: right;
+  right: -60px;
+}
+
+.pedrinho {
+  justify-self: left;
+  grid-column: 2;
+  max-width: 37%;
+  position: relative;
+  top: -220px;
+  left: -5px;
+}
+
+.nomes {
+  display: flex;
+  justify-content: center;
+  grid-column: 1 / 2;
+  align-items: center;
+  gap: 100px;
+  font-family: Cinzel;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.05);
+  width: 100%;
+  padding-bottom: 2px;
+  border-radius: 4px;
+  margin-top: -200px;
+  border: 2px solid rgba(255, 255, 255, 0.533);
+}
+
+.dollar {
+  max-width: 12%;
+  position: fixed;
+  display: block;
+  top: -10px;
+  right: -50px;
+  transform: rotate(-40deg);
+}
+
+.descricao {
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+
+  margin: 30px 150px;
+  box-sizing: border-box;
+  border-radius: 4px;
+
+  padding: 30px;
+  background-color: rgba(183, 218, 187, 0.301);
+  background-size: 100%;
+
+  font-family: Ysabeau SC;
+  font-size: 1rem;
+  line-height: 1.6;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.descricao p {
+  grid-column: 2;
+  text-align: center;
+}
+
+.logo2 {
+  max-width: 40%;
+  grid-column: 1;
+  justify-self: center;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  margin: 10px;
+  border-radius: 100%;
+  background-color: rgba(255, 255, 255, 0.533);
+}
+
+.grid {
+  justify-items: center;
+  justify-content: center;
+  display: grid;
+  padding: 80px 60px;
+  margin: 40px 0px;
+
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 50px;
+  background-color: #8f8f8f;
+  align-items: center;
+}
+
+.minibloco1 {
+  place-self: end;
+  position: relative;
+  font-family: Cinzel;
+  font-size: 13px;
+  font-weight: bold;
+  top: -100px;
+  padding: 10px;
+  left: -60px;
+  border-radius: 20%;
+  background: #8f8f8f;
+  box-shadow: inset 10px 10px 20px #6c6c6c, inset -10px -10px 20px #cccccc;
+  gap: 0px;
+  width: 90px;
+  height: 80px;
+  align-items: center;
+  display: grid;
+  grid-template-rows: 5;
+}
+
+.minibloco1 p {
+  padding: 0px;
+  margin: 0px;
+  align-self: center;
+  text-align: center;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  color: black;
+}
+
+.bloco1 {
+  width: 180px;
+  height: 170px;
+  align-self: center;
+  grid-column: 1;
+  text-align: center;
+  font-family: Cinzel;
+  font-weight: bold;
+  font-size: 14px;
+  color: #cccccc;
+  align-content: center;
+  justify-self: end;
+  align-items: center;
+  padding: 40px 20px;
+  border-radius: 15%;
+  background: #696969;
+  box-shadow: inset 20px 20px 40px #434343, inset -20px -20px 40px #5d5d5d;
+}
+
+.textbloco {
+  justify-self: center;
+  position: relative;
+  top: -80px;
+}
+
+h1 {
+  margin: 0px;
+  padding: 0px;
+  top: -80px;
+  position: relative;
+  color: rgb(56, 96, 169);
+  background-color: #ccccccbc;
+  border-radius: 100%;
+  box-shadow: inset -5px 5px 30px #525252, inset 5px -5px 30px #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.047);
+}
+
+.headquarter {
+  grid-column: 2;
+}
+
+.rodape {
+  padding: 20px;
+
+  text-align: center;
+  align-items: center;
+  font-family: Cinzel;
+  font-size: 14px;
+  background-color: rgba(255, 255, 255, 0.508);
+  width: 100%;
+}
+
+.direcao {
+  grid-column: 3;
+  width: 235px;
+  height: 300px;
+  border-radius: 89% 65% 84% 100% / 0% 0% 80% 89%;
+  box-shadow: 27px 27px 70px lightblue, -35px -25px 70px white;
+  justify-self: left;
+}
+
+.legenda {
+  position: relative;
+  top: -30px;
+  right: -970px;
+  font-family: Cinzel;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Ysabeau SC";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/ysabeausc/v1/Noai6Uro3JCIKAbW46nMorJZyP7kKRflbw98U2qObYA-mg.woff2)
+    format("woff2");
+  unicode-range: U+0370-03FF;
+}
